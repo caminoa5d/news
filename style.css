@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Product Sans Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans Regular'), url('ProductSans-Regular.woff') format('woff');
+}
+
+body{
+    margin: 0px;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    width: 100vw;
+    background-color: whitesmoke;
+}
+
+.top{
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+}
+
+h1{
+    font-family: "Product Sans Regular";
+    font-weight: 400;
+    color: rgb(114, 59, 165);
+}
+
+img{
+    margin: 40px;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    width: 800px;
+    border-radius: 20px;
+}
+
+.articulosbar{
+    width: 100vw;
+    background-color: white;
+
+}
+
+ul{
+    margin: 80px;
+}
